@@ -1,0 +1,83 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "presentation": {
+                "clear": false,
+                "echo": false,
+                "focus": false,
+                "panel": "shared",
+                "reveal": "never",
+                "showReuseMessage": false
+            },
+            "label": "Run Vite",
+            "type": "shell",
+            "command": "npx vite"
+        },
+        {
+            "presentation": {
+                "clear": false,
+                "echo": false,
+                "focus": false,
+                "panel": "shared",
+                "reveal": "always",
+                "showReuseMessage": false
+            },
+            "label": "Run Vite Build",
+            "type": "shell",
+            "command": "npx vite build"
+        },
+        {
+            "presentation": {
+                "clear": false,
+                "echo": false,
+                "focus": false,
+                "panel": "shared",
+                "reveal": "always",
+                "showReuseMessage": false
+            },
+            "label": "Run Vite Preview",
+            "type": "shell",
+            "command": "npx vite preview"
+        },
+        {
+            "presentation": {
+                "clear": false,
+                "echo": false,
+                "focus": false,
+                "panel": "shared",
+                "reveal": "always",
+                "showReuseMessage": false
+            },
+            "label": "Run Vite Optimize",
+            "type": "shell",
+            "command": "npx vite optimize"
+        },
+        {
+            "presentation": {
+                "clear": false,
+                "echo": false,
+                "focus": false,
+                "panel": "shared",
+                "reveal": "always",
+                "showReuseMessage": false
+            },
+            "label": "Vitest File",
+            "type": "shell",
+            "command": "npx vitest run ${relativeFile}"
+        },
+        {
+            "presentation": {
+                "clear": false,
+                "echo": false,
+                "focus": false,
+                "panel": "shared",
+                "reveal": "always",
+                "showReuseMessage": false
+            },
+            "label": "Vitest Files",
+            "type": "shell",
+            "command": "npx vitest run"
+        }
+    ]
+}
