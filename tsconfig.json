@@ -1,0 +1,73 @@
+{
+    "compilerOptions": {
+        /*
+         * Core settings
+         */
+        "module": "ES2020", // Specifies the module system
+        "target": "ES2020", // Specifies the ECMAScript target version
+        "lib": [
+            "ESNext",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        /*
+         * Type checking
+         */
+        "composite": true, // Enable project references
+        "incremental": true, // Enable incremental compilation
+        "skipLibCheck": true, // Skip type checking all .d.ts files
+        /*
+         * Bundler mode
+         */
+        "alwaysStrict": true, // Parses the code in strict mode
+        "isolatedModules": true, // Disables type-checking of all files in the compilation
+        "jsx": "react-jsx", // Specifies the JSX factory function used
+        "moduleDetection": "force", // Forces module resolution to use the bundler
+        "moduleResolution": "Bundler", // Resolves modules using the bundler
+        "noEmit": true, // Disables emitting files
+        "resolveJsonModule": true, // Allows importing JSON files
+        /*
+         * Linting
+         */
+        "allowUnreachableCode": false, // Allows unreachable code
+        "allowUnusedLabels": false, // Allows unused labels
+        "exactOptionalPropertyTypes": true, // Differentiates between optional undefined and omitted properties
+        "strict": true, // Enables all strict type-checking options below
+        "strictBindCallApply": true, // Ensures bind, call, and apply methods are typed correctly
+        "strictFunctionTypes": true, // Enforces strict typing for function parameters
+        "strictNullChecks": true, // Requires null and undefined to be handled explicitly
+        "strictPropertyInitialization": true, // Checks for uninitialized properties in classes
+        "noFallthroughCasesInSwitch": true, // Disallows fallthrough cases in switch statements
+        "noImplicitAny": true, // Disallows variables with an 'any' type
+        "noImplicitThis": true, // Disallows 'this' to be used with an implicit 'any' type
+        "noImplicitReturns": true, // Requires all code paths in a function to return a value
+        "noPropertyAccessFromIndexSignature": true, // Prevents unsafe access of properties from index signatures
+        "noUnusedLocals": true, // Flags unused local variables
+        "noUnusedParameters": true, // Flags unused function parameters
+        "noUncheckedIndexedAccess": true, // Requires undefined checks when accessing array elements
+        "noImplicitOverride": true, // Disallows overriding methods that are not explicitly marked as 'override'
+        "useUnknownInCatchVariables": true, // Uses the 'unknown' type for catch clause variables
+        /*
+         * Paths
+         */
+        "paths": {
+            "@/*": [
+                "./source/*"
+            ],
+            "@/test": [
+                "./test"
+            ],
+            "@/test/*": [
+                "./test/*"
+            ]
+        },
+        "baseUrl": "."
+    },
+    "include": [
+        "source",
+        "test"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
