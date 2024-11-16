@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "console": "integratedTerminal",
+            "name": "Dev [Main]",
+            "request": "launch",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "dev@mainnet",
+            ],
+            "skipFiles": [
+                "<node_internals>/**",
+            ],
+            "type": "node",
+        },
+        {
+            "console": "integratedTerminal",
+            "name": "Dev [Test]",
+            "request": "launch",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "dev@testnet",
+            ],
+            "skipFiles": [
+                "<node_internals>/**",
+            ],
+            "type": "node",
+        },
+        {
+            "console": "integratedTerminal",
+            "name": "Vitest Run",
+            "request": "launch",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "test",
+                "${file}",
+            ],
+            "skipFiles": [
+                "<node_internals>/**",
+            ],
+            "type": "node",
+        },
+        {
+            "name": "Attach",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}",
+        },
+    ],
+}
