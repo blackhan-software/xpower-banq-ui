@@ -1,0 +1,52 @@
+:root {
+    --xp-yellow: hsl(60, 100%, 50%);
+    --xp-yellow-i: hsl(240, 100%, 50%);
+    --xp-yellow-dark: hsl(45, 100%, 51%);
+    --xp-yellow-dark-i: hsl(225, 100%, 49%);
+    --xp-lime: hsl(120, 100%, 50%);
+    --xp-lime-i: hsl(300, 100%, 50%);
+    --xp-lime-dark: hsl(120, 100%, 25%);
+    --xp-lime-dark-i: hsl(300, 100%, 75%);
+    --xp-cyan: hsl(180, 100%, 50%);
+    --xp-cyan-i: hsl(0, 100%, 50%);
+    --xp-cyan-dark: hsl(180, 100%, 25%);
+    --xp-cyan-dark-i: hsl(0, 100%, 75%);
+    --xp-blue: hsl(240, 100%, 50%);
+    --xp-blue-i: hsl(60, 100%, 50%);
+    --xp-blue-dark: hsl(225, 100%, 49%);
+    --xp-blue-dark-i: hsl(45, 100%, 51%);
+    --xp-magenta: hsl(300, 100%, 67%);
+    --xp-magenta-i: hsl(120, 100%, 33%);
+    --xp-magenta-dark: hsl(300, 100%, 75%);
+    --xp-magenta-dark-i: hsl(120, 100%, 25%);
+    --xp-red: hsl(0, 100%, 50%);
+    --xp-red-i: hsl(180, 100%, 50%);
+    --xp-red-dark: hsl(0, 100%, 75%);
+    --xp-red-dark-i: hsl(180, 100%, 25%);
+    --xp-gray: hsl(30, 11%, 85%);
+    --xp-gray-i: hsl(210, 11%, 15%);
+    --xp-gray-dark: hsl(210, 11%, 15%);
+    --xp-gray-dark-i: hsl(30, 11%, 85%);
+    --xp-white: rgba(238, 238, 238);
+    --xp-white-i: rgba(17, 17, 17);
+    --xp-white-dark: rgba(119, 119, 119);
+    --xp-white-dark-i: rgba(136, 136, 136);
+}
+
+:root {
+    --xp-magenta-25: hsla(300, 100%, 67%, .25);
+    --xp-magenta-50: hsla(300, 100%, 67%, .50);
+    --xp-magenta-75: hsla(300, 100%, 67%, .75);
+    --xp-magenta-dark-25: hsla(300, 100%, 75%, .25);
+    --xp-magenta-dark-50: hsla(300, 100%, 75%, .50);
+    --xp-magenta-dark-75: hsla(300, 100%, 75%, .75);
+}
+
+:root {
+    --xp-gray-25: hsla(30, 11%, 85%, .25);
+    --xp-gray-50: hsla(30, 11%, 85%, .50);
+    --xp-gray-75: hsla(30, 11%, 85%, .75);
+    --xp-gray-dark-25: hsla(210, 11%, 15%, .25);
+    --xp-gray-dark-50: hsla(210, 11%, 15%, .50);
+    --xp-gray-dark-75: hsla(210, 11%, 15%, .75);
+}

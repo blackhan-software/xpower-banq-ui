@@ -1,0 +1,17 @@
+#app-root main>.home-page {
+    max-width: 100%;
+    width: 576px;
+}
+
+#app-root {
+    background-image: url('@/assets/image/webp/banq-cover.webp');
+    background-color: var(--xp-gray-dark);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#app-root {
+    color: var(--xp-white);
+}

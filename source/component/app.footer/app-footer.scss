@@ -1,0 +1,21 @@
+footer {
+
+    a {
+        text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+        color: white !important;
+    }
+
+    .bi:focus,
+    .bi:hover {
+        color: white;
+    }
+
+    .avalanche:focus,
+    .avalanche:hover {
+        color: red;
+    }
+}

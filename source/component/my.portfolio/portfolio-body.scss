@@ -1,0 +1,85 @@
+#my-portfolio {
+
+    .portfolio-body {
+        .btn-toggle {
+            cursor: default;
+        }
+
+        input,
+        .text {
+            font-size: smaller;
+        }
+
+        input,
+        .btn {
+            border-radius: 0;
+            border: none;
+        }
+    }
+
+    .portfolio-body {
+        .accordion-item:first-of-type {
+            .accordion-header {
+
+                .btn-toggle {
+                    border-radius: 5px 0 0 0;
+                }
+
+                .btn-handle {
+                    border-radius: 0 5px 0 0;
+                }
+            }
+        }
+
+        .accordion-item:last-of-type {
+            .accordion-header {
+
+                .btn-toggle {
+                    border-radius: 0 0 0 5px;
+                }
+
+                .btn-handle {
+                    border-radius: 0 0 5px 0;
+                }
+            }
+        }
+
+        .accordion-item:last-of-type:has(.accordion-body.show) {
+            .accordion-header {
+
+                .btn-toggle,
+                .btn-handle {
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+
+    .portfolio-body {
+        .accordion-item:has(.accordion-body.show) {
+            .accordion-header {
+                .btn-toggle i {
+                    display: block;
+                    rotate: 90deg;
+                }
+            }
+        }
+
+        .collapsing {
+            transition: none;
+        }
+    }
+}
+
+#my-portfolio {
+    .portfolio-body {
+        .btn-toggle {
+            background-color: transparent;
+        }
+
+        input,
+        .text {
+            background-color: transparent;
+        }
+    }
+}

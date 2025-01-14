@@ -1,0 +1,108 @@
+@use "./palette.scss";
+
+/**
+ * Focus Ring:
+ */
+.focus-ring-primary {
+    --bs-focus-ring-color: var(--xp-magenta-dark-25);
+}
+
+/**
+ * Form Control:
+ */
+.form-control {
+    background-color: var(--xp-gray-dark-75);
+}
+
+.form-control:focus,
+.form-control:active {
+    background-color: var(--xp-gray-dark-75);
+    border-color: var(--xp-gray);
+}
+
+.form-control::selection {
+    background-color: var(--xp-gray);
+    color: var(--xp-gray-dark);
+}
+
+/**
+  * Button Primary:
+  */
+.btn-primary {
+    background-color: var(--xp-magenta);
+    border-color: var(--xp-magenta);
+    font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-primary:disabled {
+    background-color: var(--xp-magenta-dark);
+    border-color: var(--xp-magenta-dark);
+}
+
+.btn-primary:active {
+    background-color: var(--xp-magenta-dark) !important;
+    border-color: var(--xp-magenta-dark) !important;
+}
+
+.btn-primary:focus {
+    background-color: var(--xp-magenta);
+    border-color: var(--xp-magenta);
+}
+
+/**
+  * Button Primary: [outline]
+  */
+.btn-outline-primary {
+    background-color: var(--xp-gray-dark-75);
+    border-color: var(--xp-magenta);
+    color: var(--xp-magenta);
+    font-weight: bold;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--xp-magenta);
+    border-color: var(--xp-magenta);
+}
+
+.btn-outline-primary:disabled {
+    background-color: var(--xp-gray-dark-75);
+    border-color: var(--xp-magenta);
+    color: var(--xp-magenta-dark-50);
+    opacity: 1;
+}
+
+.btn-outline-primary:active {
+    background-color: var(--xp-magenta-dark) !important;
+    border-color: var(--xp-magenta-dark) !important;
+}
+
+.btn-outline-primary:focus {
+    background-color: var(--xp-magenta);
+    border-color: var(--xp-magenta);
+    color: var(--xp-white);
+}
+
+/**
+  * Button Secondary: [outline]
+  */
+.btn-outline-secondary {
+    background-color: var(--xp-gray-dark-75);
+    color: var(--xp-gray);
+}
+
+/**
+  * Dropdown Item:
+  */
+.dropdown-item:active {
+    background-color: var(--xp-magenta);
+    border-color: var(--xp-magenta);
+}
+
+
+/**
+ * Accordion Item:
+ */
+.accordion-item {
+    background-color: var(--xp-gray-dark-75);
+}
