@@ -1,0 +1,107 @@
+#my-portfolio {
+    .portfolio-body {
+        input,
+        .text {
+            font-size: smaller;
+        }
+        input,
+        .btn {
+            border-radius: 0;
+            border: none;
+        }
+    }
+    .portfolio-body {
+        .accordion-item:first-of-type {
+            .accordion-header {
+                .btn-toggle {
+                    border-radius: 5px 0 0 0;
+                }
+                .btn-handle {
+                    border-radius: 0 5px 0 0;
+                }
+            }
+        }
+        .accordion-item:last-of-type {
+            .accordion-header {
+                .btn-toggle {
+                    border-radius: 0 0 0 5px;
+                }
+                .btn-handle {
+                    border-radius: 0 0 5px 0;
+                }
+            }
+        }
+        .accordion-item:last-of-type:has(.accordion-body.show) {
+            .accordion-header {
+                .btn-toggle,
+                .btn-handle {
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+    .portfolio-body {
+        .accordion-item:has(.accordion-body.show) {
+            .accordion-header {
+                .btn-toggle i {
+                    display: block;
+                    rotate: 90deg;
+                }
+            }
+        }
+        .collapsing {
+            transition: none;
+        }
+    }
+}
+
+#my-portfolio {
+    .portfolio-body {
+        .btn-toggle {
+            background-color: transparent;
+        }
+
+        .btn-lock {
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        input,
+        .text {
+            background-color: transparent;
+        }
+    }
+}
+
+
+#my-portfolio {
+    .portfolio-body {
+        .at-sign {
+            @media (max-width: 576px) {
+                padding-right: 0 !important;
+                padding-left: 0 !important;
+            }
+        }
+        .position-lock {
+            @media (max-width: 576px) {
+                padding-right: 0.75rem !important;
+            }
+            padding-bottom: 0.125em !important;
+        }
+        .position-lock {
+            .btn-lock:hover {
+                .lock-icon {
+                    filter: saturate(1);
+                }
+            }
+            .btn-lock {
+                .lock-icon {
+                    filter: saturate(0);
+                }
+                max-width: 12.5px;
+                font-size: 9px;
+            }
+            max-width: 24px;
+        }
+    }
+}
