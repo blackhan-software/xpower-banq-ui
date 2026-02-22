@@ -1,0 +1,13 @@
+#my-portfolio {
+    .portfolio-head {
+        @media screen and (min-width: 576px) {
+            .portfolio-head-rhs {
+                width: 25% !important;
+            }
+        }
+    }
+
+    .portfolio-head {
+        font-size: small;
+    }
+}

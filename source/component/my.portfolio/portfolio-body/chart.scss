@@ -1,0 +1,25 @@
+div#portfolio-body {
+    .accordion-body {
+        height: 320px !important;
+        padding: 0.5em;
+    }
+}
+
+div#portfolio-body {
+
+    div.chart-quotes,
+    div.chart-utils {
+        canvas:active {
+            cursor: col-resize;
+        }
+
+        canvas {
+            cursor: pointer;
+        }
+    }
+
+    div.chart {
+        height: 50%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+.fade-in {
+    opacity: 0;
+}
+
+.fade-in-200 {
+    transition: opacity 200ms ease-in;
+}
+
+.fade-in-600 {
+    transition: opacity 600ms ease-in;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
